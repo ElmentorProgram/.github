@@ -1,0 +1,37 @@
+labels: ["feature request"]
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: Overview
+      placeholder: "E.g., Request to celebrate users who complete their profiles at the end of each batch."
+    validations:
+      required: true
+
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Current Limitations
+      description: What limitations are you facing with current features?
+      placeholder: "E.g., Currently, there is no recognition for users who complete their profiles, which could help motivate others to do the same."
+    validations:
+      required: true
+
+  - type: textarea
+    id: why-matters
+    attributes:
+      label: Why This Matters
+      description: Why is solving this important?
+      placeholder: "E.g., Celebrating profile completions will motivate members to finish their profiles, boosting engagement and fostering a more active community."
+    validations:
+      required: true
+
+  - type: textarea
+    id: feature-details
+    attributes:
+      label: Feature Request
+      description: What exactly are you requesting? Please be specific.
+      placeholder: "E.g., Implement a process which allows us as GAs to celebrate members that finished creating thier profiles."
+    validations:
+      required: true
