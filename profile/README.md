@@ -15,7 +15,7 @@ Within the community, members actively engage in various collaborative and devel
 - **Discussing real-world use cases and business scenarios**  
 - **Exchanging technical and leadership knowledge**  
 - **Supporting the wider public community**
-- **And many others**
+- **And many more**
 
 These activities are designed to benefit everyone—from novices to experts—while reinforcing the habit of lifelong learning.
 
