@@ -33,7 +33,7 @@ This model helps us structure engagement, learning, and decision-making in a cle
 
 ## Code of Conduct
 
-We value respectful and constructive interaction with all audiences. Please read our [Code of Conduct](CODE_OF_CONDUCT.md) to understand how we ensure a safe and welcoming environment for everyone.
+We value respectful and constructive interaction with all audiences. Please read our [Code of Conduct](../CODE_OF_CONDUCT.md) to understand how we ensure a safe and welcoming environment for everyone.
 
 ## Stay Updated
 
