@@ -58,7 +58,7 @@ jobs:
 
             // --- HELPER: Get Short Month Name ---
             function getShortMonth(date) {
-               return date.toLocaleString('default', { month: 'short' }); // Returns "Jan", "Feb", etc.
+               return date.toLocaleString('en-US', { month: 'short' }); // Returns "Jan", "Feb", etc.
             }
 
             try {
