@@ -47,13 +47,16 @@ jobs:
             
             const { PROJECT_NUM, ORG_NAME, ISSUE_NODE_ID, FIELD_NAME_WEEK, FIELD_NAME_DATE, FIELD_NAME_MONTH } = process.env;
 
+            // --- CONSTANTS ---
+            const MILLISECONDS_PER_DAY = 86400000;
+
             // --- HELPER: Calculate ISO Week (Monday Start) ---
             function getISOWeek(date) {
               const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
               const dayNum = d.getUTCDay() || 7; // Get day (1=Mon, ..., 7=Sun)
               d.setUTCDate(d.getUTCDate() + 4 - dayNum);
               const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
-              return Math.ceil((((d - yearStart) / 86400000) + 1)/7);
+              return Math.ceil((((d - yearStart) / MILLISECONDS_PER_DAY) + 1)/7);
             }
 
             // --- HELPER: Get Short Month Name ---
