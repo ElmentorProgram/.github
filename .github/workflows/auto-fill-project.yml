@@ -136,7 +136,7 @@ jobs:
 
               // 5. Match Month Name to Dropdown Option ID
               const monthOption = monthField.options.find(opt => opt.name === currentMonthName);
-              if (!monthOption) throw new Error(`Month option "${currentMonthName}" not found in Project settings (Check spelling!).`);
+              if (!monthOption) throw new Error(`Month option "${currentMonthName}" not found in Project settings. Ensure all 12 month abbreviations (Jan-Dec) are configured in the Month field.`);
 
               // 6. Execute Mutation
               const mutation = `
